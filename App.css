@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Noto+Serif+Ahom&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+  padding: 0;
+  margin: 0;
+  font-family: "Inter", serif;
+}
+.second-box
+{
+    display: flex;
+    justify-content: center;
+}
+.seperator
+{
+height: 1px;
+  background-color: rgb(147, 145, 145);
+  position: relative;
+  top: 16px;
+  
+  z-index: 20;
+}
+input
+{
+  width: 450px;
+  height: 65px;
+  color: rgb(63, 76, 90);
+
+}
+.email
+{
+  background-image: url(./assets/email-1-svgrepo-com.svg);
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: left center;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 7px;
+  border: 1px solid rgb(177, 177, 177);
+}
+.password
+{
+  background-image: url(./assets/password-svgrepo-com.svg);
+  background-repeat: no-repeat;
+  background-size: 30px 30px;
+  background-position: left center;
+  border-radius: 7px;
+  border: 1px solid rgb(177, 177, 177);
+}
+.anchor
+{
+  position: relative;
+  left: 300px;
+  color: #457eff;
+  text-decoration: none;
+  top: 7px;
+  font-size: 17px;
+  font-weight: 550;
+  
+  
+}
+button
+{
+  width: 450px;
+  height: 50px;
+  background-color: #457eff;;
+  color: white;
+  border: 0;
+  border-radius: 7px;
+}
+.box2
+{
+  width: 50%;
+  padding: 50px;
+}
+.box1
+{
+  
+  
+  
+}
+.second-box
+{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  border-radius: 10px;
+  box-shadow: 0 0 24px rgba(0, 0, 0, .06);
+  
+  
+}
+.First-box
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.locofy
+{
+  position: relative;
+  right: 380px;
+  padding: 15px;
+}
+h2
+{
+  padding: 10px 0px;
+  color:rgb(25, 43, 82) ;
+  font-weight: 700;
+  font-size: 29px;
+
+}
+p
+{
+  padding: 10px 0px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(63, 76, 90);
+}
+a
+{
+  color: #457eff;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 550;
+}
+.signup
+{
+  display: flex;
+  justify-content: center;
+  color: rgb(63, 76, 90);
+  padding: 20px;
+}
